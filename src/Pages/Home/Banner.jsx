@@ -13,8 +13,8 @@ const Banner = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          Empowering Ideas into <br />
-          <span className="text-cyan-400">Digital Solutions</span>
+          We Transform Brands with <br />
+          <span className="text-cyan-400">Digital Innovation</span>
         </motion.h1>
 
         <motion.p
@@ -23,7 +23,10 @@ const Banner = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.6 }}
         >
-          I’m <span className="text-white font-semibold">Md. Muhib Ullah (Habib)</span>, a passionate full stack developer focused on building scalable and modern web applications.
+          At <span className="text-white font-semibold">Silica Infotech</span>, we specialize in 
+          <span className="text-cyan-300 font-semibold"> Web Development</span>, 
+          <span className="text-cyan-300 font-semibold"> Digital Marketing</span>, and 
+          <span className="text-cyan-300 font-semibold"> Creative Branding</span> — helping businesses grow with impactful digital experiences.
         </motion.p>
 
         {/* Buttons */}
@@ -37,13 +40,13 @@ const Banner = () => {
             to="/projects"
             className="btn bg-cyan-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-cyan-600 transition"
           >
-            View Projects
+            Our Projects
           </Link>
           <a
             href="mailto:silicainfoteeh.bd@gmail.com"
             className="btn border border-cyan-400 px-6 py-3 rounded-full font-semibold text-cyan-300 hover:bg-cyan-700 transition"
           >
-            Contact Me
+            Get In Touch
           </a>
         </motion.div>
       </div>
