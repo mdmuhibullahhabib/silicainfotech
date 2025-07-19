@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaCode, FaMobileAlt, FaServer, FaPaintBrush } from 'react-icons/fa';
+import { FaCode, FaMobileAlt, FaServer, FaPaintBrush, FaBullhorn, FaPalette } from 'react-icons/fa';
 
 const services = [
   {
@@ -27,6 +27,18 @@ const services = [
     description:
       "Crafting intuitive user experiences and visually pleasing designs with clean, modern UI.",
   },
+  {
+    title: "Digital Marketing Services",
+    icon: <FaBullhorn className="text-3xl text-cyan-400" />,
+    description:
+      "Boost your online presence with targeted SEO, social media campaigns, and PPC advertising.",
+  },
+  {
+    title: "Creative Branding",
+    icon: <FaPalette className="text-3xl text-cyan-400" />,
+    description:
+      "Combining creative branding strategies with innovative web development to build your unique identity.",
+  },
 ];
 
 const Services = () => {
@@ -40,10 +52,10 @@ const Services = () => {
       >
         <h2 className="text-4xl font-bold text-cyan-400 mb-6">My Services</h2>
         <p className="text-gray-300 mb-12 text-lg">
-          I offer a wide range of web development services to bring your ideas to life.
+          I offer a wide range of services including web development, digital marketing, and creative branding to elevate your business.
         </p>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <motion.div
               key={index}
