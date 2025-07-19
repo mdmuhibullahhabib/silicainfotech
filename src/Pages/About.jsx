@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import { motion } from 'framer-motion';
 
 const About = () => {
@@ -12,13 +12,14 @@ const About = () => {
       >
         <h2 className="text-4xl font-bold text-cyan-400 mb-4">About Me</h2>
         <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-          I’m <span className="text-cyan-300 font-semibold">Md. Muhib Ullah Habib</span>, a passionate and detail-oriented Full Stack Web Developer.
-          I specialize in building responsive web applications using modern JavaScript technologies like React, Tailwind CSS, Node.js, Express, and MongoDB.
-          With a strong foundation in both frontend and backend, I love crafting seamless, scalable, and user-focused solutions.
+          I’m <span className="text-cyan-300 font-semibold">Md. Muhib Ullah Habib</span>, a passionate and detail-oriented Full Stack Web Developer.  
+          I specialize in building responsive web applications using modern JavaScript technologies like React, Tailwind CSS, Node.js, Express, and MongoDB.  
+          In addition to web development, I provide <span className="font-semibold text-cyan-300">Digital Marketing Services</span> and <span className="font-semibold text-cyan-300">Creative Branding</span> solutions that help businesses grow their online presence and establish a unique identity.  
+          My goal is to craft seamless, scalable, and user-focused solutions that combine technology and creativity.
         </p>
 
         <motion.div
-          className="grid md:grid-cols-2 gap-6 text-left"
+          className="grid md:grid-cols-3 gap-6 text-left"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.7 }}
@@ -49,6 +50,17 @@ const About = () => {
                 </span>
               ))}
             </div>
+          </div>
+
+          <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-md">
+            <h3 className="text-xl font-semibold text-cyan-300 mb-2">Services I Provide</h3>
+            <ul className="list-disc list-inside text-gray-200">
+              <li>Custom Web Development & Design</li>
+              <li>Digital Marketing Campaigns (SEO, PPC, Social Media)</li>
+              <li>Creative Branding & Visual Identity</li>
+              <li>Content Strategy & Marketing</li>
+              <li>Performance Tracking & Analytics</li>
+            </ul>
           </div>
         </motion.div>
       </motion.div>
