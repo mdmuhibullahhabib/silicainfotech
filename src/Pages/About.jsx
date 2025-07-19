@@ -10,12 +10,11 @@ const About = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
       >
-        <h2 className="text-4xl font-bold text-cyan-400 mb-4">About Me</h2>
+        <h2 className="text-4xl font-bold text-cyan-400 mb-4">About Silica Infotech</h2>
         <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-          I’m <span className="text-cyan-300 font-semibold">Md. Muhib Ullah Habib</span>, a passionate and detail-oriented Full Stack Web Developer.  
-          I specialize in building responsive web applications using modern JavaScript technologies like React, Tailwind CSS, Node.js, Express, and MongoDB.  
-          In addition to web development, I provide <span className="font-semibold text-cyan-300">Digital Marketing Services</span> and <span className="font-semibold text-cyan-300">Creative Branding</span> solutions that help businesses grow their online presence and establish a unique identity.  
-          My goal is to craft seamless, scalable, and user-focused solutions that combine technology and creativity.
+          <span className="text-cyan-300 font-semibold">Silica Infotech</span> is a results-driven digital agency specializing in <span className="font-semibold text-cyan-300">Web Development</span>, <span className="font-semibold text-cyan-300">Digital Marketing</span>, and <span className="font-semibold text-cyan-300">Creative Branding</span>.  
+          We help businesses establish powerful online identities, engage their audiences, and grow their digital presence with cutting-edge solutions.  
+          Our team of experts is passionate about blending technology and creativity to deliver modern, scalable, and impactful experiences.
         </p>
 
         <motion.div
@@ -25,17 +24,17 @@ const About = () => {
           transition={{ delay: 0.3, duration: 0.7 }}
         >
           <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-md">
-            <h3 className="text-xl font-semibold text-cyan-300 mb-2">What I Do</h3>
+            <h3 className="text-xl font-semibold text-cyan-300 mb-2">What We Do</h3>
             <ul className="list-disc list-inside text-gray-200">
-              <li>Build full-stack MERN web apps</li>
-              <li>Develop reusable frontend components</li>
-              <li>Integrate APIs and authentication</li>
-              <li>Deploy apps using Vercel, Netlify, Render</li>
+              <li>Build full-stack MERN web applications</li>
+              <li>Create modern, responsive UI/UX</li>
+              <li>Develop scalable backend solutions</li>
+              <li>Deploy websites & apps to cloud platforms</li>
             </ul>
           </div>
 
           <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-md">
-            <h3 className="text-xl font-semibold text-cyan-300 mb-2">Technologies I Use</h3>
+            <h3 className="text-xl font-semibold text-cyan-300 mb-2">Technologies We Use</h3>
             <div className="flex flex-wrap gap-2 text-sm">
               {[
                 'HTML', 'CSS', 'JavaScript', 'React',
@@ -53,13 +52,13 @@ const About = () => {
           </div>
 
           <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-md">
-            <h3 className="text-xl font-semibold text-cyan-300 mb-2">Services I Provide</h3>
+            <h3 className="text-xl font-semibold text-cyan-300 mb-2">Services We Provide</h3>
             <ul className="list-disc list-inside text-gray-200">
-              <li>Custom Web Development & Design</li>
-              <li>Digital Marketing Campaigns (SEO, PPC, Social Media)</li>
+              <li>Custom Website Development & Design</li>
+              <li>SEO, PPC & Social Media Marketing</li>
               <li>Creative Branding & Visual Identity</li>
-              <li>Content Strategy & Marketing</li>
-              <li>Performance Tracking & Analytics</li>
+              <li>Content Strategy & Digital Campaigns</li>
+              <li>Analytics & Performance Optimization</li>
             </ul>
           </div>
         </motion.div>
