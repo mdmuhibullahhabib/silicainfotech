@@ -64,3 +64,6 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
               className="text-sm text-cyan-400 hover:underline"
+            >
+              View on GitHub →
+            </a>
