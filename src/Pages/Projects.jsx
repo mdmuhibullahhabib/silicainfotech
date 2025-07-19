@@ -71,6 +71,4 @@ const Projects = () => {
         ))}
       </div>
     </section>
-  );
-};
 
