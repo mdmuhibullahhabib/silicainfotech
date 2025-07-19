@@ -68,7 +68,4 @@ const Projects = () => {
               View on GitHub →
             </a>
           </motion.div>
-        ))}
-      </div>
-    </section>
 
