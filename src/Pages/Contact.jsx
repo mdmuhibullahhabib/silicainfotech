@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -19,27 +20,39 @@ const Contact = () => {
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-start">
         {/* Contact Info */}
         <motion.div
-          className="space-y-6"
+          className="space-y-8"
           initial={{ opacity: 0, x: -30 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.2, duration: 0.8 }}
         >
-          <div>
-            <h3 className="text-2xl font-semibold text-cyan-300 mb-2">Our Address</h3>
-            <p className="text-gray-300">House 22, Road 3, Block B, Mirpur-2, Dhaka, Bangladesh</p>
+          <div className="flex items-start gap-4">
+            <MapPin className="text-cyan-400 w-6 h-6 mt-1" />
+            <div>
+              <h3 className="text-xl font-semibold text-cyan-300">Our Address</h3>
+              <p className="text-gray-300">House 22, Road 3, Block B, Mirpur-2, Dhaka, Bangladesh</p>
+            </div>
           </div>
-          <div>
-            <h3 className="text-2xl font-semibold text-cyan-300 mb-2">Call Us</h3>
-            <p className="text-gray-300">+880 1711 234567</p>
+          <div className="flex items-start gap-4">
+            <Phone className="text-cyan-400 w-6 h-6 mt-1" />
+            <div>
+              <h3 className="text-xl font-semibold text-cyan-300">Call Us</h3>
+              <p className="text-gray-300">+880 1711 234567</p>
+            </div>
           </div>
-          <div>
-            <h3 className="text-2xl font-semibold text-cyan-300 mb-2">Email</h3>
-            <p className="text-gray-300">contact@silicainfotech.com</p>
+          <div className="flex items-start gap-4">
+            <Mail className="text-cyan-400 w-6 h-6 mt-1" />
+            <div>
+              <h3 className="text-xl font-semibold text-cyan-300">Email</h3>
+              <p className="text-gray-300">contact@silicainfotech.com</p>
+            </div>
           </div>
-          <div>
-            <h3 className="text-2xl font-semibold text-cyan-300 mb-2">Working Hours</h3>
-            <p className="text-gray-300">Sunday - Thursday: 9am – 6pm</p>
-            <p className="text-gray-300">Friday - Saturday: Closed</p>
+          <div className="flex items-start gap-4">
+            <Clock className="text-cyan-400 w-6 h-6 mt-1" />
+            <div>
+              <h3 className="text-xl font-semibold text-cyan-300">Working Hours</h3>
+              <p className="text-gray-300">We are open every day</p>
+              <p className="text-gray-300">9:00 AM – 9:00 PM</p>
+            </div>
           </div>
         </motion.div>
 
