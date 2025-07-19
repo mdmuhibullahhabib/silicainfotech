@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaClock } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -16,9 +16,9 @@ const Contact = () => {
         <p className="text-gray-300">Let's work together or just say hello!</p>
       </motion.div>
 
-      {/* Content Grid */}
+      {/* Grid Content */}
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-start">
-        {/* Contact Info */}
+        {/* Left Side - Contact Info */}
         <motion.div
           className="space-y-8"
           initial={{ opacity: 0, x: -30 }}
@@ -26,37 +26,37 @@ const Contact = () => {
           transition={{ delay: 0.2, duration: 0.8 }}
         >
           <div className="flex items-start gap-4">
-            <MapPin className="text-cyan-400 w-6 h-6 mt-1" />
+            <FaMapMarkerAlt className="text-cyan-400 w-6 h-6 mt-1" />
             <div>
               <h3 className="text-xl font-semibold text-cyan-300">Our Address</h3>
               <p className="text-gray-300">House 22, Road 3, Block B, Mirpur-2, Dhaka, Bangladesh</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
-            <Phone className="text-cyan-400 w-6 h-6 mt-1" />
+            <FaPhoneAlt className="text-cyan-400 w-6 h-6 mt-1" />
             <div>
               <h3 className="text-xl font-semibold text-cyan-300">Call Us</h3>
               <p className="text-gray-300">+880 1711 234567</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
-            <Mail className="text-cyan-400 w-6 h-6 mt-1" />
+            <FaEnvelope className="text-cyan-400 w-6 h-6 mt-1" />
             <div>
               <h3 className="text-xl font-semibold text-cyan-300">Email</h3>
               <p className="text-gray-300">contact@silicainfotech.com</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
-            <Clock className="text-cyan-400 w-6 h-6 mt-1" />
+            <FaClock className="text-cyan-400 w-6 h-6 mt-1" />
             <div>
               <h3 className="text-xl font-semibold text-cyan-300">Working Hours</h3>
-              <p className="text-gray-300">We are open every day</p>
+              <p className="text-gray-300">Open Every Day</p>
               <p className="text-gray-300">9:00 AM – 9:00 PM</p>
             </div>
           </div>
         </motion.div>
 
-        {/* Contact Form */}
+        {/* Right Side - Contact Form */}
         <motion.form
           className="bg-white/10 p-8 rounded-xl shadow-lg space-y-6 backdrop-blur"
           initial={{ opacity: 0, x: 30 }}
