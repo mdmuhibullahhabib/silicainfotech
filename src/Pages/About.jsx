@@ -88,7 +88,7 @@ const About = () => {
       </motion.div>
 
       {/* Meet Our Team Section */}
-      <motion.div
+      {/* <motion.div
         className="max-w-6xl mx-auto mt-24 text-center"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -116,7 +116,7 @@ const About = () => {
             </motion.div>
           ))}
         </div>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 };

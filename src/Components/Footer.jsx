@@ -6,8 +6,8 @@ const Footer = () => {
     <footer className="bg-slate-900 text-white py-6 ">
       <div className="container mx-auto px-6 md:px-20 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
         <div>
-          📧 silicainfoteeh.bd@gmail.com<br />
-          📞 01731806348
+          📧 silicainfotech.bd@gmail.com<br />
+          📞 01731809046
         </div>
         <div className="flex space-x-4 text-xl">
           <a href="#"><FaFacebookF /></a>
