@@ -36,14 +36,14 @@ const Contact = () => {
             <FaPhoneAlt className="text-cyan-400 w-6 h-6 mt-1" />
             <div>
               <h3 className="text-xl font-semibold text-cyan-300">Call Us</h3>
-              <p className="text-gray-300">+880 1711 234567</p>
+              <p className="text-gray-300">+880 1731809046</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
             <FaEnvelope className="text-cyan-400 w-6 h-6 mt-1" />
             <div>
               <h3 className="text-xl font-semibold text-cyan-300">Email</h3>
-              <p className="text-gray-300">contact@silicainfotech.com</p>
+              <p className="text-gray-300">silicainfotech.bd@gmail.com</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
