@@ -13,15 +13,8 @@ const projects = [
     title: 'HASHI Dental',
     description:
       'Modern dental clinic site featuring doctor profiles, patient testimonials, and appointment booking. Includes admin dashboard.',
-    github: 'https://github.com/mdmuhibullahhabib/HASHI-Dental',
+    github: 'https://github.com/mdmuhibullahhabib/hashi',
     tech: ['React', 'Express.js', 'MongoDB'],
-  },
-  {
-    title: 'Portfolio Website',
-    description:
-      'Personal developer portfolio with animations, responsive design, and resume download.',
-    github: 'https://github.com/mdmuhibullahhabib/my-portfolio',
-    tech: ['React', 'Tailwind CSS', 'Framer Motion'],
   },
 ];
 
